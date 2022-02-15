@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  position: relative;
+  background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  max-width: 980px;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo-white.png);
+}
+nav .links {
+  height: 5px;
+}
+nav .links a {
+  color: white;
+  text-decoration: none;
+}
+nav .links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.banner {
+  max-width: 1280px;
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -80px auto 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.bannertext {
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.bannertext1 {
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.button {
+  width: 121px;
+  position: absolute;
+  top: 95%;
+  left: 25%;
+  border: none;
+  color: white;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin-top: 45px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #79addc;
+}
+
+@media all and (max-width: 800px) {
+  .banner {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+}
+.form-content {
+  max-width: 818px;
+  background-color: 980px;
+  min-height: 200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.form-content .booking {
+  text-align: left;
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+.form-content .top-boxes {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-content .top-boxes .holder {
+  position: relative;
+}
+.form-content .top-boxes .holder .long-box {
+  width: 423px;
+}
+.form-content .top-boxes .holder input {
+  width: 344px;
+  height: 58px;
+  padding-left: 10px;
+  border: 3px solid #79addc;
+}
+.form-content .top-boxes .holder i {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.form-content .mid-boxes {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-content .mid-boxes .holder {
+  position: relative;
+}
+.form-content .mid-boxes .holder .long-box {
+  width: 698px;
+}
+.form-content .mid-boxes .holder input {
+  width: 344px;
+  height: 58px;
+  padding-left: 10px;
+  border: 3px solid #79addc;
+}
+.form-content .mid-boxes .holder i {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.form-content .drop-boxes {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-content .drop-boxes .holder {
+  position: relative;
+}
+.form-content .drop-boxes .holder .long-box {
+  width: 103px;
+}
+.form-content .drop-boxes .holder input {
+  height: 58px;
+  padding-left: 10px;
+  border: 3px solid #79addc;
+}
+.form-content .drop-boxes .holder i {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.form-content .bigbox {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-content .bigbox .holder {
+  position: relative;
+}
+.form-content .bigbox .holder .long-box {
+  width: 818px;
+}
+.form-content .bigbox .holder input {
+  height: 192px;
+  padding-left: 10px;
+  border: 3px solid #79addc;
+}
+.form-content .submit {
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  margin-right: 800px;
+}
+.form-content .submit .button {
+  width: 818px;
+  height: 60px;
+  border: none;
+  color: white;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  cursor: pointer;
+}
+.form-content .submit .buttonsub {
+  background-color: #79addc;
+  border-radius: 25px;
+}
+
+@media all and (max-width: 800px) {
+  .form-content {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+}
+.three {
+  text-align: center;
+  max-width: 818px;
+  min-height: 200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  background-color: 980px;
+}
+.three .pics1 {
+  width: 236px;
+  height: 304px;
+  background-image: url(../images/tour-012.jpg);
+  position: absolute;
+}
+.three .pics2 {
+  width: 236px;
+  height: 304px;
+  background-image: url(../images/tour-022.jpg);
+  position: absolute;
+  right: 291px;
+}
+.three .pics3 {
+  width: 236px;
+  height: 304px;
+  background-image: url(../images/tour-032.jpg);
+  position: absolute;
+  left: 582px;
+}
+.three .pictext {
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.three .pictext1 {
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.three .button {
+  width: 133px;
+  position: absolute;
+  border: none;
+  color: white;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin-top: 15px;
+  margin-left: -35px;
+  cursor: pointer;
+}
+.three .buttonpic1 {
+  background-color: #79addc;
+  border-radius: 25px;
+}
+
+@media all and (max-width: 800px) {
+  .three {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+}
+.foot {
+  max-width: 980px;
+  height: 80px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  background-color: #79addc;
+  top: 200px;
+}
+.foot .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo-white.png);
+  margin-left: 100px;
+}
+.foot .bottext {
+  color: white;
+  margin-top: 30px;
+  left: 100px;
+}
+.foot .logosa {
+  position: relative;
+  color: white;
+  font-size: 20px;
+}
+.foot .logosb {
+  position: relative;
+  color: white;
+  font-size: 20px;
+}
+.foot .logosc {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  padding-right: 125px;
+}
+
+@media all and (max-width: 800px) {
+  .foot {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+}

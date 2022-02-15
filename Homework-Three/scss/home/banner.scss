@@ -1,0 +1,61 @@
+.banner{
+    max-width: $banner-footer-width;
+    height: $banner-height;
+    background-image: linear-gradient(rgba($site-black, .6)), url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -80px auto 0 auto;
+    text-align: center;
+    position: relative;
+    
+
+    //if this doesnt save, save in variables then run
+}
+
+.bannertext{
+    color: $site-white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bannertext1{
+    color: $site-white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    width:121px;
+    position: absolute;
+    top: 95%;
+    left: 25%;
+    border: none;
+    color: $site-white;
+    padding: 12px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 45px;
+    cursor: pointer;
+  }
+
+  .button1{
+      background-color: $site-blue;
+      
+    }
+
+@media all and (max-width:800px) 
+{
+    .banner
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+}

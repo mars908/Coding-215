@@ -1,0 +1,84 @@
+.three{
+    text-align: center;
+    max-width: $home-form-width;
+    min-height: 200px;
+    margin: $center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: $site-width;
+
+    .pics1{
+        width:236px;
+        height: 304px;
+        background-image: url(../images/tour-012.jpg);
+        position: absolute;
+        
+    }
+
+    .pics2{
+        width:236px;
+        height: 304px;
+        background-image: url(../images/tour-022.jpg);
+        position: absolute;
+        right: 291px;
+    }
+
+    .pics3{
+        width:236px;
+        height: 304px;
+        background-image: url(../images/tour-032.jpg);
+        position: absolute;
+        left: 582px;
+    }
+
+
+    .pictext{
+        color: $site-white;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .pictext1{
+        color: $site-white;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .button{
+        width: 133px;
+        position: absolute;
+        border: none;
+        color: $site-white;
+        padding: 12px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 17px;
+        margin-top: 15px;
+        margin-left: -35px;
+        cursor: pointer;
+        
+    }
+    
+      .buttonpic1{
+          background-color: $site-blue;
+          border-radius: 25px;
+          
+        }
+}
+
+@media all and (max-width:800px) 
+{
+    .three
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+}

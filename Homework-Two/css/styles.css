@@ -1,0 +1,1109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  width: 1200px;
+  height: 50px;
+  background-color: black;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+nav .links {
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav .links a {
+  margin: auto;
+  color: white;
+  text-decoration: none;
+}
+nav .links a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+nav .icons {
+  position: absolute;
+  right: 20px;
+  color: grey;
+  font-size: 20px;
+}
+nav .icons span {
+  margin-left: 15px;
+  color: grey;
+}
+
+.banner {
+  width: 1200px;
+  height: 1200px;
+  background-image: url(../images/Bike1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+}
+.banner .ribbon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  color: white;
+  width: 200px;
+  height: 60px;
+  background-color: black;
+  position: absolute;
+  top: 100px;
+  -webkit-clip-path: polygon(100% 0%, 94% 49%, 100% 100%, 0 100%, 0% 50%, 0 0);
+          clip-path: polygon(100% 0%, 94% 49%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+.banner .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+}
+.banner .center .rchev {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  position: absolute;
+  right: 25px;
+  color: #e4e0e0;
+  font-size: 40px;
+  margin-top: 1100px;
+  left: 1150px;
+}
+.banner .center .lchev {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  position: absolute;
+  left: 25px;
+  color: #e4e0e0;
+  font-size: 40px;
+  margin-top: 1100px;
+}
+
+.dispatch {
+  height: 375px;
+  width: 1200px;
+  background-color: rgba(228, 226, 226, 0.911);
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.dispatch h1 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.dispatch .box-container {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.dispatch .box-container .boxa {
+  width: 160px;
+  height: 150px;
+  background-color: lightgreen;
+  background-image: url(../images/b1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dispatch .box-container .boxa p {
+  margin-top: 155px;
+  text-align: left;
+  font-size: 15px;
+}
+.dispatch .box-container .boxb {
+  width: 160px;
+  height: 150px;
+  background-color: lightgreen;
+  background-image: url(../images/b2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dispatch .box-container .boxb p {
+  margin-top: 155px;
+  text-align: left;
+  font-size: 15px;
+}
+.dispatch .box-container .boxc {
+  width: 160px;
+  height: 150px;
+  background-color: lightgreen;
+  background-image: url(../images/b3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dispatch .box-container .boxc p {
+  margin-top: 155px;
+  text-align: left;
+  font-size: 15px;
+}
+.dispatch .box-container .boxd {
+  width: 160px;
+  height: 150px;
+  background-color: lightgreen;
+  background-image: url(../images/b4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dispatch .box-container .boxd p {
+  margin-top: 155px;
+  text-align: left;
+  font-size: 15px;
+}
+.dispatch .box-container .boxe {
+  width: 160px;
+  height: 150px;
+  background-color: lightgreen;
+  background-image: url(../images/b5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dispatch .box-container .boxe p {
+  margin-top: 155px;
+  text-align: left;
+  font-size: 15px;
+}
+.dispatch .box-container .boxf {
+  width: 160px;
+  height: 150px;
+  background-color: lightgreen;
+  background-image: url(../images/b6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dispatch .box-container .boxf p {
+  margin-top: 155px;
+  text-align: left;
+  font-size: 15px;
+}
+.dispatch .load {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  color: darkred;
+  font-size: 25px;
+  margin-top: 73px;
+  margin-left: 470px;
+}
+.dispatch h2 {
+  color: darkred;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.back {
+  width: 1200px;
+  height: 950px;
+  background-color: #fdfdfd;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+.back .ad {
+  width: 1000px;
+  height: 150px;
+  bottom: 700px;
+  background-image: url(../images/b7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.back .para p {
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  bottom: 150px;
+}
+.back .bke {
+  width: 100%;
+  height: 300px;
+  top: 550px;
+  background-image: url(../images/b8.jpg);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.back .ribbonz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  color: white;
+  width: 180px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  -webkit-clip-path: polygon(100% 0%, 94% 49%, 100% 100%, 0 100%, 6% 50%, 0 0);
+          clip-path: polygon(100% 0%, 94% 49%, 100% 100%, 0 100%, 6% 50%, 0 0);
+  top: 925px;
+}
+
+.backb .fourgrid {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.backb .fourgrid .foura {
+  width: 250px;
+  height: 250px;
+  background-color: lightgreen;
+  background-image: url(../images/b9.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backb .fourgrid .fourb {
+  width: 250px;
+  height: 250px;
+  background-color: lightgreen;
+  background-image: url(../images/b10.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backb .fourgrid .fourc {
+  width: 250px;
+  height: 250px;
+  background-color: lightgreen;
+  background-image: url(../images/b11.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backb .fourgrid .fourd {
+  width: 250px;
+  height: 250px;
+  background-color: lightgreen;
+  background-image: url(../images/b12.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backc {
+  width: 1200px;
+  height: 600px;
+  background-color: #fcfaf7;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+.backc .ribbonzx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #313131;
+  width: 365px;
+  height: 60px;
+  background-color: #313131;
+  position: absolute;
+  -webkit-clip-path: polygon(100% 0%, 94% 49%, 100% 100%, 0 100%, 6% 50%, 0 0);
+          clip-path: polygon(100% 0%, 94% 49%, 100% 100%, 0 100%, 6% 50%, 0 0);
+  top: 100px;
+}
+.backc .ribbonzxy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  color: #161616;
+  width: 350px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  -webkit-clip-path: polygon(100% 0%, 94% 49%, 100% 100%, 0 100%, 6% 50%, 0 0);
+          clip-path: polygon(100% 0%, 94% 49%, 100% 100%, 0 100%, 6% 50%, 0 0);
+  top: 105px;
+}
+.backc .support {
+  width: 1200px;
+  height: 350px;
+  background-image: url(../images/b13.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+.backd {
+  width: 1200px;
+  height: 1200px;
+  background-color: #85946a;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+.backd .wolf {
+  width: 350px;
+  height: 250px;
+  background-image: url(../images/b14.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 300px;
+  position: absolute;
+}
+.backd .pedal {
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  color: darkred;
+  padding-top: 100px;
+}
+.backd .parab p {
+  color: darkred;
+  text-align: center;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  padding-top: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.backd .logos .logosa {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  color: darkred;
+  font-size: 25px;
+  left: 250px;
+  margin-top: 200px;
+}
+.backd .logos .logosb {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  color: darkred;
+  font-size: 25px;
+  left: 430px;
+  margin-top: 200px;
+}
+.backd .logos .logosc {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  color: darkred;
+  font-size: 25px;
+  left: 580px;
+  margin-top: 200px;
+}
+.backd .logos .logosd {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  color: darkred;
+  font-size: 25px;
+  left: 730px;
+  margin-top: 200px;
+}
+.backd .logos .logose {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  color: darkred;
+  font-size: 25px;
+  left: 900px;
+  margin-top: 200px;
+}
+.backd .rows {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.backd .rows .rowa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  color: #161616;
+  position: absolute;
+  padding-top: 300px;
+  margin: 0 auto;
+  left: 125px;
+}
+.backd .rows .rowb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 330px;
+  margin: 0 auto;
+  left: 125px;
+}
+.backd .rows .rowb a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rows .rowb a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rows .rowc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 360px;
+  margin: 0 auto;
+  left: 125px;
+}
+.backd .rows .rowc a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rows .rowc a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rows .rowd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 390px;
+  margin: 0 auto;
+  left: 125px;
+}
+.backd .rows .rowd a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rows .rowd a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rows .rowe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 420px;
+  margin: 0 auto;
+  left: 125px;
+}
+.backd .rows .rowe a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rows .rowe a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rows .rowf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 450px;
+  margin: 0 auto;
+  left: 125px;
+}
+.backd .rows .rowf a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rows .rowf a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rows .rowg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 480px;
+  margin: 0 auto;
+  left: 125px;
+}
+.backd .rows .rowg a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rows .rowg a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsb {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.backd .rowsb .rowab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  color: #161616;
+  position: absolute;
+  padding-top: 300px;
+  margin: 0 auto;
+  left: 365px;
+}
+.backd .rowsb .rowbb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 330px;
+  margin: 0 auto;
+  left: 365px;
+}
+.backd .rowsb .rowbb a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsb .rowbb a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsb .rowcb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 360px;
+  margin: 0 auto;
+  left: 365px;
+}
+.backd .rowsb .rowcb a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsb .rowcb a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsb .rowdb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 390px;
+  margin: 0 auto;
+  left: 365px;
+}
+.backd .rowsb .rowdb a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsb .rowdb a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsb .roweb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 420px;
+  margin: 0 auto;
+  left: 365px;
+}
+.backd .rowsb .roweb a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsb .roweb a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsb .rowfb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 450px;
+  margin: 0 auto;
+  left: 365px;
+}
+.backd .rowsb .rowfb a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsb .rowfb a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsb .rowgb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 480px;
+  margin: 0 auto;
+  left: 365px;
+}
+.backd .rowsb .rowgb a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsb .rowgb a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsc {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.backd .rowsc .rowac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  color: #161616;
+  position: absolute;
+  padding-top: 300px;
+  margin: 0 auto;
+  left: 605px;
+}
+.backd .rowsc .rowbc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 330px;
+  margin: 0 auto;
+  left: 605px;
+}
+.backd .rowsc .rowbc a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsc .rowbc a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsc .rowcc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 360px;
+  margin: 0 auto;
+  left: 605px;
+}
+.backd .rowsc .rowcc a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsc .rowcc a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsc .rowdc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 390px;
+  margin: 0 auto;
+  left: 605px;
+}
+.backd .rowsc .rowdc a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsc .rowdc a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsc .rowec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 420px;
+  margin: 0 auto;
+  left: 605px;
+}
+.backd .rowsc .rowec a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsc .rowec a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsc .rowfc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 450px;
+  margin: 0 auto;
+  left: 605px;
+}
+.backd .rowsc .rowfc a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsc .rowfc a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsc .rowgc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 480px;
+  margin: 0 auto;
+  left: 605px;
+}
+.backd .rowsc .rowgc a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsc .rowgc a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsd {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.backd .rowsd .rowad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  color: #161616;
+  position: absolute;
+  padding-top: 300px;
+  margin: 0 auto;
+  left: 855px;
+}
+.backd .rowsd .rowbd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 330px;
+  margin: 0 auto;
+  left: 855px;
+}
+.backd .rowsd .rowbd a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsd .rowbd a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsd .rowcd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 360px;
+  margin: 0 auto;
+  left: 855px;
+}
+.backd .rowsd .rowcd a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsd .rowcd a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsd .rowdd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 390px;
+  margin: 0 auto;
+  left: 855px;
+}
+.backd .rowsd .rowdd a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsd .rowdd a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsd .rowed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 420px;
+  margin: 0 auto;
+  left: 855px;
+}
+.backd .rowsd .rowed a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsd .rowed a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsd .rowfd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 450px;
+  margin: 0 auto;
+  left: 855px;
+}
+.backd .rowsd .rowfd a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsd .rowfd a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .rowsd .rowgd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  position: absolute;
+  padding-top: 480px;
+  margin: 0 auto;
+  left: 855px;
+}
+.backd .rowsd .rowgd a {
+  color: #c54d4d;
+  text-decoration: none;
+}
+.backd .rowsd .rowgd a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.backd .copyright p {
+  text-align: center;
+  font-size: 15px;
+  width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  padding-top: 550px;
+  left: 100px;
+}
+
+.login {
+  width: 1200px;
+  height: 50px;
+  background-color: #425c25;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+.login p {
+  margin: auto;
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+}
+.login h2 {
+  margin: auto;
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  position: absolute;
+  right: 45px;
+}
+.login .iconz {
+  position: absolute;
+  right: 20px;
+  color: #0f0f0f;
+  font-size: 20px;
+}

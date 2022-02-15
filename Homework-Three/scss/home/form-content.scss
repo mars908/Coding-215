@@ -1,0 +1,169 @@
+
+.form-content{
+    max-width: $home-form-width;
+    background-color: $site-width;
+    min-height: 200px;
+    margin: $center;
+    margin-top: 100px;
+
+
+    .booking{
+        text-align: left;
+        font-size: 26px;
+        margin-bottom: 50px;
+    }
+
+    .top-boxes{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        .holder{
+            position:relative;
+
+            .long-box{
+                width: 423px;
+            }
+            
+            input{
+                width: 344px;
+                height: 58px;
+                padding-left: 10px;
+                border:  3px solid $site-blue;
+    
+            }
+
+            i{
+                position: absolute;
+                top: 20px;
+                right: 10px;
+            }
+        }
+    }
+
+    .mid-boxes{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        .holder{
+            position:relative;
+
+            .long-box{
+                width: 698px;
+            }
+            
+            input{
+                width: 344px;
+                height: 58px;
+                padding-left: 10px;
+                border:  3px solid $site-blue;
+    
+            }
+
+            i{
+                position: absolute;
+                top: 20px;
+                right: 10px;
+            }
+        }
+    }
+
+    .drop-boxes{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        .holder{
+            position:relative;
+
+            .long-box{
+                width: 103px;
+                
+            }
+            
+            input{
+                height: 58px;
+                padding-left: 10px;
+                border:  3px solid $site-blue;
+    
+            }
+
+            i{
+                position: absolute;
+                top: 20px;
+                right:10px;
+            }
+        }
+    }
+
+    .bigbox{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        .holder{
+            position:relative;
+
+            .long-box{
+                width: 818px;
+                
+            }
+            
+            input{
+                height: 192px;
+                padding-left: 10px;
+                border:  3px solid $site-blue;
+    
+            }
+
+        }
+    }
+
+    .submit{
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        margin-top:20px;
+        margin-right: 800px;
+
+        .button{
+            width: $home-form-width;
+            height: 60px;
+            border: none;
+            color: $site-white;
+            padding: 12px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 17px;
+            cursor: pointer;
+            
+            
+            
+        }
+    
+        .buttonsub{
+            background-color: $site-blue;
+            border-radius: 25px;
+        }
+    }
+}
+
+@media all and (max-width:800px) 
+{
+    .form-content
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+    }
+}

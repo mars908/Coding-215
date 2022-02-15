@@ -1,0 +1,44 @@
+nav {
+    width: $site-width;
+    height: 50px;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    
+
+    .links{
+        width: 700px;
+        display: flex;
+
+
+        a{
+            margin: auto;
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+                text-underline-offset: 5px;
+            }
+
+        }
+       
+    }
+
+    .icons{
+        position: absolute;
+        right: 20px;
+        color:grey;
+        font-size: 20px;
+
+        span{
+            margin-left: 15px;
+            color: grey;
+
+        }
+    }
+}

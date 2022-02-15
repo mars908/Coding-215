@@ -1,0 +1,33 @@
+.login{
+    width: $site-width;
+    height: 50px;
+    background-color: rgb(66, 92, 37);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    p{
+        margin: auto;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    h2{
+        margin: auto;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 13px;
+        position :absolute;
+        right: 45px;
+    }
+
+    .iconz{
+        position: absolute;
+        right: 20px;
+        color:rgb(15, 15, 15);
+        font-size: 20px;
+    }
+}
